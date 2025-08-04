@@ -1,0 +1,16 @@
+{
+  "name": "restful-api",
+  "version": "1.0.0",
+  "description": "API automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "api",
+    "test",
+    "automation"
+  ],
+  "author": "Kaushik",
+  "license": "ISC"
+}
