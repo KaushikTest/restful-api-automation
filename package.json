@@ -2,9 +2,22 @@
   "name": "restful-api",
   "version": "1.0.0",
   "description": "API automation",
-  "main": "index.js",
+  "type": "module",
+  "module": "commonjs",
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  },
   "scripts": {
-    "test": "npm test"
+    "test": "jest"
   },
   "keywords": [
     "api",
@@ -12,5 +25,10 @@
     "automation"
   ],
   "author": "Kaushik",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.28.0",
+    "jest": "^30.0.5",
+    "supertest": "^7.1.4"
+  }
 }
